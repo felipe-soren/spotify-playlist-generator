@@ -49,7 +49,9 @@ function Home({ location }) {
   }
 
   function login() {
-    window.location.replace("https://playlistrocks.herokuapp.com/login");
+    window.location.replace(
+      "https://oauth-spotify-playlist-generat.herokuapp.com/login"
+    );
   }
 
   return (
