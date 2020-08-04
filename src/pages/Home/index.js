@@ -49,7 +49,7 @@ function Home({ location }) {
   }
 
   function login() {
-    window.location.replace("http://localhost:8888/login");
+    window.location.replace("https://playlistrocks.herokuapp.com/login");
   }
 
   return (
